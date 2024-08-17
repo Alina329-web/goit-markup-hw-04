@@ -297,7 +297,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
   padding-left: 16px;
   padding-right: 16px;
   flex-shrink: 0;
@@ -411,21 +410,18 @@ a {
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
-  display: flex;
 }
 .container-footer {
-  height: 80px;
-  width: 208px;
-  margin-left: 120px;
-}
-.container .container-footer {
-  margin-left: 120px;
-}
-.footer-blok {
-  display: flex;
-  align-items: baseline;
   flex-direction: row;
+  display: flex;
+  gap: 72px;
   justify-content: flex-start;
+  align-items: baseline;
+  margin: auto;
+  width: 1158px;
+}
+
+.footer-blok {
   margin-right: 120px;
 }
 
